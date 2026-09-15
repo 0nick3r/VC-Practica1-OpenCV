@@ -1,1 +1,37 @@
-# VC-Practica1-OpenCV
+# Práctica 1: Introducción a OpenCV - Visión por Computador
+
+Repositorio de la Práctica 1 de la asignatura Visión por Computador (ULPGC). El proyecto, desarrollado mediante el cuaderno interactivo `VC_P1.ipynb`, aplica transformaciones matriciales, primitivas de dibujo y filtros de vídeo en tiempo real.
+
+## Estructura y Requisitos
+
+El entorno de desarrollo requiere Python y las siguientes dependencias estándar: `opencv-python`, `numpy` y `matplotlib`. El proyecto se organiza de la siguiente manera:
+
+* **`VC_P1.ipynb`**: Cuaderno principal que contiene el código fuente, la ejecución por bloques y la justificación de las decisiones técnicas.
+* **`assets/`**: Directorio destinado a almacenar las capturas de pantalla y demostraciones visuales de los resultados generados.
+
+## Desarrollo y Ampliaciones
+
+El cuaderno respeta la progresión del guion oficial, implementando variantes de algunas tareas:
+
+* **Primitivas de dibujo (Tablero Pac-Man):** Recreación vectorial del laberinto arcade clásico. Se ha parametrizado la simetría del tablero matemáticamente y se han utilizado funciones como `cv2.ellipse` y `cv2.fillPoly`.
+  > *[Espacio reservado para la imagen: assets/pacman.png]*
+* **Procesamiento de vídeo (Efecto Halftone):** Ampliación de la tarea de análisis de fotogramas. La intensidad RGB local de la imagen capturada por la cámara web determina, en tiempo real, el radio de un patrón de círculos renderizados sobre un lienzo oscuro.
+  > *[Espacio reservado para el GIF: assets/halftone.gif]*
+* **Falso color (Composición Pop Art):** Procesamiento del canal de luminancia mediante `cv2.applyColorMap` para aplicar paletas predefinidas. El ensamblado del mosaico 2x2 se realiza de forma vectorial y eficiente con `np.hstack` y `np.vstack`.
+  > *[Espacio reservado para la imagen: assets/popart.png]*
+
+## Instrucciones de Uso
+
+Para evaluar el proyecto correctamente y asegurar la estabilidad del entorno:
+
+* Iniciar la sesión en Jupyter Notebook o entorno compatible y abrir el archivo `VC_P1.ipynb`.
+* Ejecutar las celdas de forma secuencial para compilar las funciones en el orden establecido.
+* En las celdas que invocan la captura de vídeo, es indispensable mantener el foco en la ventana emergente de OpenCV y presionar la tecla `ESC` para liberar el dispositivo de hardware y finalizar el proceso.
+
+## Declaración de Uso de IA
+
+Conforme a las directrices de la asignatura, se declara el uso de herramientas de Inteligencia Artificial bajo un rol estricto de consultoría técnica. Su aplicación se ha limitado a:
+
+* La optimización del ensamblado matricial con NumPy para evitar el uso de bucles e índices manuales.
+* La comprensión de los mapas de colores para la correcta aplicación de falso color en OpenCV.
+* El diseño de funciones espaciales para automatizar la simetría geométrica en la generación del tablero.
