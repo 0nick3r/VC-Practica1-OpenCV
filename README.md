@@ -9,15 +9,17 @@ El entorno de desarrollo requiere Python y las siguientes dependencias estándar
 * **`VC_P1.ipynb`**: Cuaderno principal que contiene el código fuente, la ejecución por bloques y la justificación de las decisiones técnicas.
 * **`assets/`**: Directorio destinado a almacenar las capturas de pantalla y demostraciones visuales de los resultados generados.
 
-## Desarrollo y Ampliaciones
+## Desarrollo de las Tareas y Ampliación
 
-El cuaderno respeta la progresión del guion oficial, implementando variantes de algunas tareas:
+El cuaderno respeta la progresión del guion oficial para dar cumplimiento a las tareas exigidas, incorporando una ampliación voluntaria en el bloque de dibujo:
 
-* **Primitivas de dibujo (Tablero Pac-Man):** Recreación vectorial del laberinto arcade clásico. Se ha parametrizado la simetría del tablero matemáticamente y se han utilizado funciones como `cv2.ellipse` y `cv2.fillPoly`.
+* **Ampliación - Primitivas de dibujo (Tablero Pac-Man):** Recreación vectorial del laberinto arcade clásico. Se ha parametrizado la simetría del tablero matemáticamente y se han utilizado funciones como `cv2.ellipse` y `cv2.fillPoly`.
   > *[Espacio reservado para la imagen: assets/pacman.png]*
-* **Procesamiento de vídeo (Efecto Halftone):** Ampliación de la tarea de análisis de fotogramas. La intensidad RGB local de la imagen capturada por la cámara web determina, en tiempo real, el radio de un patrón de círculos renderizados sobre un lienzo oscuro.
+
+* **Tarea - Procesamiento de vídeo (Efecto Halftone):** Resolución de la tarea de análisis de fotogramas. La intensidad RGB local de la imagen capturada por la cámara web determina, en tiempo real, el radio de un patrón de círculos renderizados sobre un lienzo oscuro.
   > *[Espacio reservado para el GIF: assets/halftone.gif]*
-* **Falso color (Composición Pop Art):** Procesamiento del canal de luminancia mediante `cv2.applyColorMap` para aplicar paletas predefinidas. El ensamblado del mosaico 2x2 se realiza de forma vectorial y eficiente con `np.hstack` y `np.vstack`.
+
+* **Tarea - Falso color (Composición Pop Art):** Procesamiento del canal de luminancia mediante `cv2.applyColorMap` para aplicar paletas predefinidas. El ensamblado del mosaico 2x2 se realiza de forma vectorial y eficiente con `np.hstack` y `np.vstack`.
   > *[Espacio reservado para la imagen: assets/popart.png]*
 
 ## Instrucciones de Uso
