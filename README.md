@@ -13,8 +13,17 @@ El entorno de desarrollo requiere Python y las siguientes dependencias estándar
 
 El cuaderno respeta la progresión del guion oficial para dar cumplimiento a las tareas exigidas, incorporando una ampliación voluntaria en el bloque de dibujo:
 
+* **Tarea - Creación de un tablero de ajedrez:** Generación de un tablero de juego mediante una cuadrícula de rectángulos alternos
+  > ![Recreación de la Obra](assets/ajedrez.jepg)
+
 * **Ampliación - Primitivas de dibujo (Tablero Pac-Man):** Recreación vectorial del laberinto arcade clásico. Se ha parametrizado la simetría del tablero matemáticamente y se han utilizado funciones como `cv2.ellipse`, `cv2.circle`, entre otras.
   > ![Recreación Laberinto Pacman](assets/pacman.png)
+
+* **Tarea - Creación de una imagen estilo Mondrian:** Recreación de una obra del pintor Piet Mondrian mediante el uso de líneas y rectángulos
+  > ![Recreación de la Obra](assets/Mondrian.jepg)
+
+* **Tarea - Detección del pixel más oscuro y claro:** Identificación de los puntos de máxima y mínima luminosidad en una imagen digital.
+  > ![Ejemplo de detección](assets/detection.jepg)
 
 * **Tarea - Procesamiento de vídeo (Efecto Halftone):** Resolución de la tarea de análisis de fotogramas. La intensidad RGB local de la imagen capturada por la cámara web determina, en tiempo real, el radio de un patrón de círculos renderizados sobre un lienzo oscuro.
   > *[Espacio reservado para el GIF: assets/halftone.gif]*
