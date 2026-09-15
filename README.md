@@ -13,7 +13,7 @@ El entorno de desarrollo requiere Python y las siguientes dependencias estándar
 
 El cuaderno respeta la progresión del guion oficial para dar cumplimiento a las tareas exigidas, incorporando una ampliación voluntaria en el bloque de dibujo:
 
-* **Ampliación - Primitivas de dibujo (Tablero Pac-Man):** Recreación vectorial del laberinto arcade clásico. Se ha parametrizado la simetría del tablero matemáticamente y se han utilizado funciones como `cv2.ellipse` y `cv2.fillPoly`.
+* **Ampliación - Primitivas de dibujo (Tablero Pac-Man):** Recreación vectorial del laberinto arcade clásico. Se ha parametrizado la simetría del tablero matemáticamente y se han utilizado funciones como `cv2.ellipse`, `cv2.circle`, entre otras.
   > *[Espacio reservado para la imagen: assets/pacman.png]*
 
 * **Tarea - Procesamiento de vídeo (Efecto Halftone):** Resolución de la tarea de análisis de fotogramas. La intensidad RGB local de la imagen capturada por la cámara web determina, en tiempo real, el radio de un patrón de círculos renderizados sobre un lienzo oscuro.
