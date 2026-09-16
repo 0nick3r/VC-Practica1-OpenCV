@@ -25,9 +25,6 @@ El cuaderno respeta la progresión del guion oficial para dar cumplimiento a las
 * **Tarea - Detección del pixel más oscuro y claro:** Identificación de los puntos de máxima y mínima luminosidad en una imagen digital.
   > ![Ejemplo de detección](assets/detection.jpeg)
 
-* **Tarea - Procesamiento de vídeo (Efecto Halftone):** Resolución de la tarea de análisis de fotogramas. La intensidad RGB local de la imagen capturada por la cámara web determina, en tiempo real, el radio de un patrón de círculos renderizados sobre un lienzo oscuro.
-  > *[Espacio reservado para el GIF: assets/halftone.gif]*
-
 * **Tarea - Falso color (Composición Pop Art):** Procesamiento del canal de luminancia mediante `cv2.applyColorMap` para aplicar paletas predefinidas. El ensamblado del mosaico 2x2 se realiza de forma vectorial y eficiente con `np.hstack` y `np.vstack`.
   > *[Espacio reservado para la imagen: assets/popart.png]*
 
