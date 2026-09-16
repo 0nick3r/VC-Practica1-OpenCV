@@ -26,7 +26,7 @@ El cuaderno respeta la progresión del guion oficial para dar cumplimiento a las
   > ![Ejemplo de detección](assets/detection.jpeg)
 
 * **Tarea - Falso color (Composición Pop Art):** Procesamiento del canal de luminancia mediante `cv2.applyColorMap` para aplicar paletas predefinidas. El ensamblado del mosaico 2x2 se realiza de forma vectorial y eficiente con `np.hstack` y `np.vstack`.
-  > *[Espacio reservado para la imagen: assets/popart.png]*
+  > ![PopArt](assets/popart.png)
 
 ## Instrucciones de Uso
 
